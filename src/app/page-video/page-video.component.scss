@@ -57,14 +57,22 @@ header {
   background-color: rgb(4, 2, 13);
   color: #fff;
   text-align: center;
-  padding: 50px;
+  width: 100%;
 }
-
+.section-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Conteneur du lecteur et de la playlist */
 .player-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  //background-color: #570017;
 }
 
 /* Lecteur */
@@ -74,10 +82,22 @@ header {
 
 /* Playlist */
 .playlist {
-  margin: 20px;
-  width: 300px;
+  // margin: 20px;
+  width: 750px;
+  
+ // background-color: #f00;
 }
 
+.video{
+  //width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iframe{
+  padding: 2rem;
+
+}
 .playlist h2 {
   font-size: 20px;
   margin-bottom: 10px;
